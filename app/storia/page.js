@@ -1,21 +1,37 @@
 export default function StoriaPage() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      <section className="max-w-5xl mx-auto px-6 py-20 md:py-24">
-        <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-4">
-          LA MIA STORIA
-        </p>
+    <main className="min-h-screen bg-black text-white overflow-hidden">
+      <section className="relative px-6 py-24">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.12),transparent_35%)]"></div>
 
-        <h1 className="text-4xl md:text-5xl font-bold uppercase leading-tight mb-10">
-          IL PERCORSO CHE HA CAMBIATO LA MIA VITA
-        </h1>
+        <div className="relative max-w-5xl mx-auto">
+          <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-4">
+            LA MIA STORIA
+          </p>
 
-        <div className="space-y-8">
-          <div className="rounded-3xl border border-white/10 p-8 bg-black">
-            <h2 className="text-2xl font-bold uppercase mb-4">
+          <h1 className="text-4xl md:text-6xl font-black uppercase leading-tight mb-6">
+            DALL’OSCURITÀ ALLA CHIAMATA
+          </h1>
+
+          <p className="text-white/75 text-lg md:text-xl leading-relaxed max-w-3xl">
+            Non racconto una vita perfetta. Racconto una trasformazione reale:
+            da rabbia, vuoto e distruzione interiore a una vita arresa a Cristo.
+          </p>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-16">
+        <div className="max-w-5xl mx-auto space-y-6">
+          <div className="rounded-3xl border border-white/10 p-8 bg-white/[0.03]">
+            <p className="text-white/40 uppercase tracking-[0.25em] text-xs mb-4">
+              01
+            </p>
+
+            <h2 className="text-2xl md:text-3xl font-black uppercase mb-5">
               CHI ERO PRIMA
             </h2>
-            <div className="space-y-2 text-white/75 leading-relaxed text-lg">
+
+            <div className="space-y-3 text-white/70 text-lg leading-relaxed">
               <p>
                 Prima di quell’esperienza con Dio, la mia vita era completamente diversa.
               </p>
@@ -34,11 +50,16 @@ export default function StoriaPage() {
             </div>
           </div>
 
-          <div className="rounded-3xl border border-white/10 p-8 bg-black">
-            <h2 className="text-2xl font-bold uppercase mb-4">
+          <div className="rounded-3xl border border-white/10 p-8 bg-white/[0.03]">
+            <p className="text-white/40 uppercase tracking-[0.25em] text-xs mb-4">
+              02
+            </p>
+
+            <h2 className="text-2xl md:text-3xl font-black uppercase mb-5">
               L’INCONTRO CON DIO
             </h2>
-            <div className="space-y-2 text-white/75 leading-relaxed text-lg">
+
+            <div className="space-y-3 text-white/70 text-lg leading-relaxed">
               <p>
                 In quel periodo mi stavo già allenando seriamente negli sport da combattimento
                 e avevo anche conquistato 3 ori come campione italiano di MMA.
@@ -57,11 +78,16 @@ export default function StoriaPage() {
             </div>
           </div>
 
-          <div className="rounded-3xl border border-white/10 p-8 bg-black">
-            <h2 className="text-2xl font-bold uppercase mb-4">
+          <div className="rounded-3xl border border-white/10 p-8 bg-white text-black">
+            <p className="text-black/40 uppercase tracking-[0.25em] text-xs mb-4">
+              03
+            </p>
+
+            <h2 className="text-2xl md:text-3xl font-black uppercase mb-5">
               LA TRASFORMAZIONE
             </h2>
-            <div className="space-y-2 text-white/75 leading-relaxed text-lg">
+
+            <div className="space-y-3 text-black/70 text-lg leading-relaxed">
               <p>
                 Da quel giorno la mia mentalità, le mie scelte e il mio modo di vivere
                 sono cambiati profondamente.
