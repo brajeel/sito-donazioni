@@ -1,114 +1,95 @@
 export default function MissionePage() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      <section className="max-w-5xl mx-auto px-6 py-20 md:py-24">
-        <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-4">
-          MISSIONE
-        </p>
+    <main className="min-h-screen bg-black text-white overflow-hidden">
+      <section className="relative px-6 py-24">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.12),transparent_35%)]"></div>
 
-        <h1 className="text-4xl md:text-5xl font-bold uppercase leading-tight mb-10">
-          QUESTO NON È SOLO SPORT
-        </h1>
+        <div className="relative max-w-5xl mx-auto">
+          <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-4">
+            MISSIONE
+          </p>
 
-        <div className="space-y-8">
+          <h1 className="text-4xl md:text-6xl font-black uppercase leading-tight mb-6">
+            QUESTO NON È SOLO SPORT
+          </h1>
 
-          <div className="rounded-3xl border border-white/10 p-8 bg-black">
-            <div className="space-y-2 text-white/75 leading-relaxed text-lg">
-              <p>
-                Dopo aver incontrato Dio, ho iniziato a pregare profondamente
-                per capire quale fosse davvero la Sua volontà per la mia vita.
-              </p>
-              <p>
-                Quando inizi a camminare seriamente con il Signore, capisci
-                che devi essere disposto anche a lasciare i tuoi sogni per
-                seguire quelli che Lui ha per te.
-              </p>
-              <p>
-                Per questo, per un periodo mi sono fermato: ho smesso di gareggiare,
-                continuavo ad allenarmi ma nel frattempo lavoravo e cercavo
-                di capire la direzione giusta.
-              </p>
-              <p>
-                Finché Dio ha iniziato a parlarmi in modo sempre più forte e chiaro:
-                questo era il campo in cui voleva usare la mia vita.
-              </p>
-            </div>
+          <p className="text-white/75 text-lg md:text-xl leading-relaxed max-w-3xl">
+            L’MMA è il campo in cui sento di vivere la chiamata che Cristo mi ha dato:
+            portare fede, disciplina, identità e testimonianza.
+          </p>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-16">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
+          <div className="rounded-3xl border border-white/10 p-8 bg-white/[0.03]">
+            <p className="text-white/40 uppercase tracking-[0.25em] text-xs mb-4">01</p>
+            <h2 className="text-2xl font-black uppercase mb-4">FEDE</h2>
+            <p className="text-white/70 leading-relaxed">
+              Vivere ogni giorno per Cristo, non solo con parole, ma con scelte reali.
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-
-            <div className="rounded-3xl border border-white/10 p-6 bg-black">
-              <h2 className="text-xl font-bold uppercase mb-3">FEDE</h2>
-              <p className="text-white/75 leading-relaxed">
-                Vivere ogni giorno per Cristo, con verità e coerenza.
-              </p>
-            </div>
-
-            <div className="rounded-3xl border border-white/10 p-6 bg-black">
-              <h2 className="text-xl font-bold uppercase mb-3">DISCIPLINA</h2>
-              <p className="text-white/75 leading-relaxed">
-                Allenarmi seriamente e crescere come fighter senza perdere la mia identità.
-              </p>
-            </div>
-
-            <div className="rounded-3xl border border-white/10 p-6 bg-black">
-              <h2 className="text-xl font-bold uppercase mb-3">IMPATTO</h2>
-              <p className="text-white/75 leading-relaxed">
-                Influenzare le persone attraverso la mia vita, non solo con le parole.
-              </p>
-            </div>
-
+          <div className="rounded-3xl border border-white/10 p-8 bg-white/[0.03]">
+            <p className="text-white/40 uppercase tracking-[0.25em] text-xs mb-4">02</p>
+            <h2 className="text-2xl font-black uppercase mb-4">DISCIPLINA</h2>
+            <p className="text-white/70 leading-relaxed">
+              Allenarmi seriamente, crescere come fighter e restare fedele alla chiamata.
+            </p>
           </div>
 
-          <div className="rounded-3xl border border-white/10 p-8 bg-black">
-            <h2 className="text-2xl font-bold uppercase mb-4">
-              PERCHÉ PROPRIO L’MMA
-            </h2>
-
-            <div className="space-y-2 text-white/75 leading-relaxed text-lg">
-              <p>
-                Il mondo degli sport da combattimento è pieno di emozioni forti,
-                pressione, ego e identità costruite su cose esterne.
-              </p>
-              <p>
-                Io stesso per anni ho idolatrato questo sport, perché era una delle poche
-                cose che mi facevano sentire vivo.
-              </p>
-              <p>
-                Ma oggi ho capito che non è lo sport a darmi valore. È Dio.
-              </p>
-              <p>
-                Ed è proprio per questo che voglio stare in questo ambiente:
-                non per essere idolatrato, ma per portare qualcosa di diverso.
-              </p>
-              <p>
-                DISCIPLINA. VERITÀ. IDENTITÀ.
-              </p>
-            </div>
+          <div className="rounded-3xl bg-white text-black p-8">
+            <p className="text-black/40 uppercase tracking-[0.25em] text-xs mb-4">03</p>
+            <h2 className="text-2xl font-black uppercase mb-4">IMPATTO</h2>
+            <p className="text-black/70 leading-relaxed">
+              Influenzare le persone attraverso una vita trasformata, non un’immagine costruita.
+            </p>
           </div>
+        </div>
+      </section>
 
-          <div className="rounded-3xl border border-white/10 p-8 bg-black">
-            <h2 className="text-2xl font-bold uppercase mb-4">
-              LA VISIONE
-            </h2>
+      <section className="border-t border-white/10 px-6 py-20">
+        <div className="max-w-5xl mx-auto rounded-3xl border border-white/10 p-8 md:p-10 bg-white/[0.03]">
+          <h2 className="text-3xl md:text-4xl font-black uppercase mb-6">
+            PERCHÉ L’MMA
+          </h2>
 
-            <div className="space-y-2 text-white/75 leading-relaxed text-lg">
-              <p>
-                Voglio dimostrare che si può vivere questo sport ad alto livello
-                senza perdere sé stessi.
-              </p>
-              <p>
-                Che si può essere disciplinati senza essere schiavi dell’ego.
-              </p>
-              <p>
-                Che si può combattere senza perdere la propria identità.
-              </p>
-              <p>
-                E che la vera forza non viene da ciò che fai, ma da chi sei in Cristo.
-              </p>
-            </div>
+          <div className="space-y-3 text-white/70 text-lg leading-relaxed">
+            <p>
+              Dopo aver incontrato Dio, ho pregato molto per capire se questo percorso
+              fosse davvero la Sua volontà per la mia vita.
+            </p>
+            <p>
+              Per un periodo mi sono fermato dalle gare. Continuavo ad allenarmi,
+              ma cercavo direzione, pregando e mettendo tutto davanti al Signore.
+            </p>
+            <p>
+              Col tempo ho compreso che proprio questo era il campo in cui Dio voleva
+              usare la mia vita.
+            </p>
+            <p>
+              Il mondo degli sport da combattimento è pieno di emozioni forti,
+              pressione, ego e identità costruite su cose esterne.
+            </p>
+            <p>
+              Io stesso per anni ho idolatrato questo sport. Oggi invece voglio viverlo
+              in modo diverso: non per gloria personale, ma per testimoniare Cristo.
+            </p>
           </div>
+        </div>
+      </section>
 
+      <section className="border-t border-white/10 px-6 py-20 text-center">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-black uppercase leading-tight mb-6">
+            LA VERA FORZA VIENE DA CHI SEI IN CRISTO.
+          </h2>
+
+          <p className="text-white/70 text-lg leading-relaxed">
+            Voglio dimostrare che si può combattere senza perdere sé stessi,
+            essere disciplinati senza essere schiavi dell’ego, e vivere lo sport
+            come una missione.
+          </p>
         </div>
       </section>
     </main>
