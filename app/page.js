@@ -7,9 +7,13 @@ export default function Home() {
           FEDE • MISSIONE • MMA
         </p>
 
-        <h1 className="text-4xl md:text-6xl font-bold uppercase leading-tight mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold uppercase leading-tight mb-4">
           LA MISSIONE CHE CRISTO MI HA DATO
         </h1>
+
+        <p className="text-white/50 uppercase tracking-wide mb-6">
+          NON È SOLO SPORT. È UNA CHIAMATA.
+        </p>
 
         <p className="text-lg md:text-xl text-white/75 max-w-3xl mx-auto leading-relaxed">
           Dalla lotta interiore a una vita completamente dedicata a Dio.
@@ -19,14 +23,14 @@ export default function Home() {
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="/storia"
-            className="rounded-2xl bg-white text-black px-6 py-3 font-semibold"
+            className="rounded-2xl bg-white text-black px-6 py-3 font-semibold uppercase tracking-wide hover:opacity-90 transition"
           >
             LEGGI LA MIA STORIA
           </a>
 
           <a
             href="/sostieni"
-            className="rounded-2xl border border-white/20 px-6 py-3 font-semibold"
+            className="rounded-2xl border border-white/20 px-6 py-3 font-semibold uppercase tracking-wide hover:bg-white hover:text-black transition"
           >
             SOSTIENI LA MISSIONE
           </a>
@@ -56,6 +60,14 @@ export default function Home() {
           <p className="text-white/75 text-lg leading-relaxed max-w-3xl mx-auto">
             Questo sito nasce per condividere la mia storia e per dare la possibilità
             a chi lo desidera di sostenere questo percorso.
+          </p>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10">
+        <div className="max-w-5xl mx-auto px-6 py-16 text-center">
+          <p className="text-white/50 uppercase tracking-wide">
+            GRAZIE A CHI DECIDERÀ DI SUPPORTARE QUESTO PERCORSO
           </p>
         </div>
       </section>
