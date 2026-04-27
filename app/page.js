@@ -52,6 +52,30 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-t border-white/10 px-6 py-24 bg-black">
+        <div className="max-w-5xl mx-auto text-center">
+          <p className="text-sm uppercase tracking-[0.3em] text-white/40 mb-5">
+            GUARDA IL VIDEO
+          </p>
+
+          <h2 className="text-3xl md:text-5xl font-black uppercase mb-8">
+            ASCOLTA LA MIA MISSIONE
+          </h2>
+
+          <div className="relative w-full overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] shadow-2xl">
+            <div className="relative pb-[56.25%] h-0">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/9zZzkMjbEr8"
+                title="La missione che Cristo mi ha dato"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="border-t border-white/10 px-6 py-20 bg-black">
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
           <a href="/storia" className="rounded-3xl border border-white/10 p-8 bg-white/[0.03] hover:bg-white/[0.08] transition">
