@@ -68,12 +68,12 @@ export default function RootLayout({ children }) {
               </p>
 
               <a
-                href="https://instagram.com/brajeel.films"
+                href="https://instagram.com/brajeeel"
                 target="_blank"
                 rel="noreferrer"
                 className="text-white/70 hover:text-white transition"
               >
-                @brajeel.films
+                @brajeeel
               </a>
 
               <p className="text-white/60 mt-6 text-sm leading-relaxed">
