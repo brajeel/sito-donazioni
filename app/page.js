@@ -7,21 +7,22 @@ export default function Home() {
 
         <img
           src="/david-mobile.jpg"
-          className="absolute inset-0 w-full h-full object-cover opacity-45 md:hidden"
+          className="absolute inset-0 w-full h-full object-cover opacity-60 md:hidden"
           alt="David Da Silva"
         />
 
         <img
           src="/david.jpg"
-          className="absolute inset-0 w-full h-full object-cover opacity-45 hidden md:block"
+          className="absolute inset-0 w-full h-full object-cover opacity-60 hidden md:block"
           alt="David Da Silva"
         />
 
-        <div className="absolute inset-0 bg-black/45"></div>
+        {/* OVERLAY PIÙ LEGGERO */}
+        <div className="absolute inset-0 bg-black/25"></div>
 
         <div className="relative z-10 max-w-5xl mx-auto text-center">
 
-          <p className="text-sm uppercase tracking-[0.35em] text-white/60 mb-6">
+          <p className="text-sm uppercase tracking-[0.35em] text-white/70 mb-6">
             FEDE • MISSIONE • MMA
           </p>
 
@@ -29,11 +30,11 @@ export default function Home() {
             LA MISSIONE CHE CRISTO MI HA DATO
           </h1>
 
-          <p className="mt-6 text-white/60 uppercase tracking-[0.25em]">
+          <p className="mt-6 text-white/70 uppercase tracking-[0.25em]">
             NON È SOLO SPORT. È UNA CHIAMATA.
           </p>
 
-          <p className="mt-8 text-lg md:text-xl text-white/85 max-w-3xl mx-auto leading-relaxed">
+          <p className="mt-8 text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
             Dalla lotta interiore a una vita completamente dedicata a Dio.
             L’MMA è il campo in cui vivo questa chiamata ogni giorno.
           </p>
@@ -48,7 +49,7 @@ export default function Home() {
 
             <a
               href="/sostieni"
-              className="rounded-full border border-white/30 px-8 py-4 font-bold uppercase hover:bg-white hover:text-black transition"
+              className="rounded-full border border-white/40 px-8 py-4 font-bold uppercase hover:bg-white hover:text-black transition"
             >
               SOSTIENI LA MISSIONE
             </a>
@@ -64,7 +65,7 @@ export default function Home() {
 
         <div className="relative max-w-6xl mx-auto text-center">
 
-          <p className="text-sm uppercase tracking-[0.3em] text-white/40 mb-5">
+          <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-5">
             GUARDA
           </p>
 
@@ -72,7 +73,7 @@ export default function Home() {
             LA MIA MISSIONE
           </h2>
 
-          <p className="text-white/70 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+          <p className="text-white/80 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
             Questo è quello che sto vivendo oggi.
             Non è una teoria, non è una cosa perfetta.
             È un percorso reale, fatto di fede, allenamento e scelte ogni giorno.
@@ -130,7 +131,7 @@ export default function Home() {
       <section className="border-t border-white/10 px-6 py-24 text-center bg-black">
         <div className="max-w-4xl mx-auto">
 
-          <p className="text-sm uppercase tracking-[0.3em] text-white/40 mb-5">
+          <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-5">
             IL CUORE DEL PROGETTO
           </p>
 
@@ -138,7 +139,7 @@ export default function Home() {
             UNA VITA ARRESA A DIO CAMBIA TUTTO.
           </h2>
 
-          <p className="text-white/70 text-lg leading-relaxed">
+          <p className="text-white/80 text-lg leading-relaxed">
             Questo sito non è solo una storia. È un percorso reale.
             Una testimonianza di fede, disciplina, combattimento e trasformazione.
           </p>
