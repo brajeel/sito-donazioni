@@ -1,97 +1,109 @@
 export default function SostieniPage() {
   return (
-    <main className="min-h-screen bg-black text-white px-6 py-20">
+    <main className="min-h-screen bg-black text-white overflow-hidden">
+      <section className="relative px-6 py-24">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.12),transparent_35%)]"></div>
 
-      <div className="max-w-4xl mx-auto">
-
-        <h1 className="text-4xl md:text-6xl font-black uppercase mb-8">
-          SOSTIENI QUESTO PERCORSO
-        </h1>
-
-        <p className="text-white/80 text-lg leading-relaxed mb-10">
-          Sto vivendo un percorso reale, fatto di fede, allenamento e scelte ogni giorno.
-          Non è perfetto, ma è vero.
-        </p>
-
-        <div className="space-y-6 text-white/80 text-lg leading-relaxed">
-
-          <p>
-            Oggi sto vivendo come un missionario, cercando di portare Dio ovunque vado:
-            in palestra, con le persone, nella vita di tutti i giorni.
+        <div className="relative max-w-5xl mx-auto">
+          <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-4">
+            SOSTIENI
           </p>
 
-          <p>
-            Continuo ad allenarmi e a crescere nell’MMA, ma non è più solo sport.
-            È uno dei campi in cui sento che Dio mi ha chiamato.
-          </p>
+          <h1 className="text-4xl md:text-6xl font-black uppercase leading-tight mb-6">
+            SOSTIENI QUESTO PERCORSO
+          </h1>
 
-          <p>
-            Allo stesso tempo sto lavorando con mio padre, ma ho scelto di non
-            costruire la mia vita su un lavoro tradizionale.
+          <p className="text-white/75 text-lg md:text-xl leading-relaxed max-w-3xl">
+            Sto vivendo un percorso reale, fatto di fede, allenamento e scelte
+            ogni giorno. Questo sito nasce per dare la possibilità a chi lo sente
+            nel cuore di sostenere questa chiamata.
           </p>
-
-          <p>
-            Sto cercando di fidarmi completamente di Dio e dedicarmi alla chiamata
-            che ha messo nel mio cuore.
-          </p>
-
         </div>
+      </section>
 
-        <div className="border-t border-white/10 my-12"></div>
+      <section className="border-t border-white/10 px-6 py-16">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
+          <div className="rounded-3xl border border-white/10 p-8 bg-white/[0.03]">
+            <h2 className="text-2xl font-black uppercase mb-4">
+              COSA STAI SOSTENENDO
+            </h2>
 
-        <h2 className="text-2xl md:text-3xl font-bold uppercase mb-6">
-          PERCHÉ SOSTENERE
-        </h2>
+            <p className="text-white/70 text-lg leading-relaxed">
+              Stai sostenendo una vita dedicata a Dio, alla missione e al
+              percorso nell’MMA. Non è solo sport: è un campo in cui sento di
+              portare fede, disciplina e testimonianza.
+            </p>
+          </div>
 
-        <div className="space-y-4 text-white/80 text-lg leading-relaxed mb-12">
+          <div className="rounded-3xl border border-white/10 p-8 bg-white/[0.03]">
+            <h2 className="text-2xl font-black uppercase mb-4">
+              PERCHÉ SOSTENERE
+            </h2>
 
-          <p>
-            Sostenere questo percorso significa aiutarmi concretamente a portarlo avanti.
-          </p>
-
-          <p>
-            Allenamenti, spostamenti, viaggi, crescita sportiva e tutto ciò che serve
-            per continuare questo cammino.
-          </p>
-
-          <p>
-            Non è una donazione per qualcosa di “finto”, ma per qualcosa che sto vivendo davvero.
-          </p>
-
+            <p className="text-white/70 text-lg leading-relaxed">
+              Il supporto aiuta concretamente con allenamenti, spostamenti,
+              viaggi, palestra, contenuti e tutto ciò che serve per portare
+              avanti questo percorso con costanza.
+            </p>
+          </div>
         </div>
+      </section>
 
-        <div className="border-t border-white/10 my-12"></div>
+      <section className="border-t border-white/10 px-6 py-16">
+        <div className="max-w-5xl mx-auto rounded-3xl border border-white/10 p-8 md:p-10 bg-white/[0.03]">
+          <h2 className="text-3xl md:text-4xl font-black uppercase mb-6">
+            TRASPARENZA
+          </h2>
 
-        <h2 className="text-2xl md:text-3xl font-bold uppercase mb-6">
-          COME SOSTENERE
-        </h2>
+          <div className="space-y-3 text-white/70 text-lg leading-relaxed">
+            <p>
+              Le donazioni non vengono usate per superficialità, ma per sostenere
+              il percorso che sto vivendo.
+            </p>
 
-        <div className="bg-white text-black rounded-2xl p-8">
-
-          <p className="text-sm uppercase mb-2 text-black/60">
-            Intestatario
-          </p>
-
-          <p className="text-xl font-bold mb-4">
-            DAVID DA SILVA
-          </p>
-
-          <p className="text-sm uppercase mb-2 text-black/60">
-            IBAN
-          </p>
-
-          <p className="text-lg font-mono break-all">
-            IT56Y0306920103100000015628
-          </p>
-
+            <p>
+              Sono un aiuto concreto per continuare ad allenarmi, muovermi,
+              evangelizzare, creare contenuti e rispondere alla chiamata che
+              sento nel cuore.
+            </p>
+          </div>
         </div>
+      </section>
 
-        <p className="text-white/60 text-sm mt-8 text-center">
-          Grazie davvero a chi sceglierà di sostenere questo percorso.
-        </p>
+      <section className="border-t border-white/10 px-6 py-16">
+        <div className="max-w-5xl mx-auto rounded-3xl bg-white text-black p-8 md:p-10">
+          <p className="text-sm uppercase tracking-[0.25em] text-black/50 mb-4">
+            DONAZIONE LIBERA
+          </p>
 
-      </div>
+          <h2 className="text-3xl md:text-4xl font-black uppercase mb-8">
+            DATI PER SOSTENERE
+          </h2>
 
-    </main>
-  );
-} |
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-2xl bg-black text-white p-6">
+              <p className="text-white/50 text-sm uppercase mb-2">
+                INTESTATARIO
+              </p>
+
+              <p className="text-2xl font-bold uppercase">
+                DAVID DA SILVA
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-black text-white p-6">
+              <p className="text-white/50 text-sm uppercase mb-2">
+                IBAN
+              </p>
+
+              <p className="font-mono text-lg break-all">
+                IT56Y0306920103100000015628
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-20 text-center">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md
