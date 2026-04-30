@@ -1,62 +1,115 @@
-export default function StoryEN() {
+export default function HomeEN() {
   return (
-    <main className="min-h-screen bg-black text-white px-6 py-20">
+    <main className="min-h-screen bg-black text-white overflow-hidden">
+      <section className="relative min-h-[100vh] flex items-center justify-center px-6">
+        <img
+          src="/david-mobile.jpg"
+          className="absolute inset-0 w-full h-full object-cover opacity-60 md:hidden"
+          alt="David Da Silva"
+        />
 
-      <div className="max-w-4xl mx-auto">
+        <img
+          src="/david.jpg"
+          className="absolute inset-0 w-full h-full object-cover opacity-60 hidden md:block"
+          alt="David Da Silva"
+        />
 
-        <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-4">
-          STORY
-        </p>
+        <div className="absolute inset-0 bg-black/25"></div>
 
-        <h1 className="text-4xl md:text-6xl font-black uppercase mb-10">
-          MY STORY
-        </h1>
-
-        <div className="space-y-6 text-white/80 text-lg leading-relaxed">
-
-          <p>
-            My life was not always aligned with God.
-            I went through confusion, struggles and inner battles.
+        <div className="relative z-10 max-w-5xl mx-auto text-center">
+          <p className="text-sm uppercase tracking-[0.35em] text-white/70 mb-6">
+            FAITH • MISSION • MMA
           </p>
 
-          <p>
-            There were moments where I felt lost, without direction,
-            trying to find meaning in things that could not truly fill me.
+          <h1 className="text-5xl md:text-7xl font-black uppercase leading-[0.95]">
+            THE MISSION CHRIST GAVE ME
+          </h1>
+
+          <p className="mt-6 text-white/70 uppercase tracking-[0.25em]">
+            THIS IS NOT JUST SPORT. IT IS A CALLING.
           </p>
 
-          <p>
-            But something started to change.
-            Slowly, I began to feel that God was calling me to something deeper.
+          <p className="mt-8 text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+            From inner battles to a life fully dedicated to God.
+            MMA is the field where I live this calling every day.
           </p>
 
-          <p>
-            It was not about becoming perfect.
-            It was about surrender.
-          </p>
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/en/storia"
+              className="rounded-full bg-white text-black px-8 py-4 font-bold uppercase hover:scale-105 transition"
+            >
+              READ MY STORY
+            </a>
 
-          <p>
-            Step by step, I chose to leave behind what was not from Him
-            and start building a new life based on faith.
-          </p>
-
-          <p>
-            Today, I am still in the process.
-            Still growing, still learning, still fighting.
-          </p>
-
-          <p>
-            But now I know one thing:
-            this path is real.
-          </p>
-
-          <p>
-            And everything I do, I want to do it for God.
-          </p>
-
+            <a
+              href="/en/sostieni"
+              className="rounded-full border border-white/40 px-8 py-4 font-bold uppercase hover:bg-white hover:text-black transition"
+            >
+              SUPPORT THE MISSION
+            </a>
+          </div>
         </div>
+      </section>
 
-      </div>
+      <section className="border-t border-white/10 px-6 py-28 bg-black relative">
+        <div className="max-w-6xl mx-auto text-center">
+          <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-5">
+            WATCH
+          </p>
 
+          <h2 className="text-3xl md:text-6xl font-black uppercase mb-6">
+            MY MISSION
+          </h2>
+
+          <p className="text-white/80 text-lg max-w-2xl mx-auto mb-8">
+            This is what I am living today.
+            A real journey made of faith, training and daily choices.
+          </p>
+
+          <div className="relative w-full overflow-hidden rounded-2xl border border-white/10">
+            <div className="relative pb-[56.25%] h-0">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/MeAqloRdVdU"
+                title="Video"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-20 bg-black">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
+          <a href="/en/storia" className="border border-white/10 p-8 rounded-2xl hover:bg-white/10 transition">
+            <h2 className="text-2xl font-bold uppercase mb-4">My Story</h2>
+            <p className="text-white/70">My real transformation.</p>
+          </a>
+
+          <a href="/en/missione" className="border border-white/10 p-8 rounded-2xl hover:bg-white/10 transition">
+            <h2 className="text-2xl font-bold uppercase mb-4">Mission</h2>
+            <p className="text-white/70">The calling I live every day.</p>
+          </a>
+
+          <a href="/en/sostieni" className="border border-white/20 p-8 rounded-2xl hover:bg-white/10 transition">
+            <h2 className="text-2xl font-bold uppercase mb-4">Support</h2>
+            <p className="text-white/70">Be part of this journey.</p>
+          </a>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-24 text-center bg-black">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-black uppercase mb-6">
+            A LIFE SURRENDERED TO GOD CHANGES EVERYTHING
+          </h2>
+
+          <p className="text-white/80 text-lg">
+            This is not just a website. It is a real journey.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
