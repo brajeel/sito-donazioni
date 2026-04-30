@@ -11,8 +11,8 @@ export default function StoryEN() {
         </h1>
 
         <p className="text-white/80 text-lg leading-relaxed">
-          This is the story of a real transformation: from confusion and inner
-          battles to a life surrendered to Christ.
+          This is my real journey: from confusion and inner battles to a life
+          guided by faith, discipline and the calling God placed in my heart.
         </p>
       </div>
     </main>
