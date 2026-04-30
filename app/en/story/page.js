@@ -76,3 +76,40 @@ export default function HomeEN() {
                 allowFullScreen
               ></iframe>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-20 bg-black">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
+          <a href="/en/story" className="border border-white/10 p-8 rounded-2xl hover:bg-white/10 transition">
+            <h2 className="text-2xl font-bold uppercase mb-4">My Story</h2>
+            <p className="text-white/70">My real transformation.</p>
+          </a>
+
+          <a href="/en/mission" className="border border-white/10 p-8 rounded-2xl hover:bg-white/10 transition">
+            <h2 className="text-2xl font-bold uppercase mb-4">Mission</h2>
+            <p className="text-white/70">The calling I live every day.</p>
+          </a>
+
+          <a href="/en/support" className="border border-white/20 p-8 rounded-2xl hover:bg-white/10 transition">
+            <h2 className="text-2xl font-bold uppercase mb-4">Support</h2>
+            <p className="text-white/70">Be part of this journey.</p>
+          </a>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-24 text-center bg-black">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-black uppercase mb-6">
+            A LIFE SURRENDERED TO GOD CHANGES EVERYTHING
+          </h2>
+
+          <p className="text-white/80 text-lg">
+            This is not just a website. It is a real journey.
+          </p>
+        </div>
+      </section>
+    </main>
+  );
+}
