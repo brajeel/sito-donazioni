@@ -1,50 +1,52 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex items-center justify-center px-6">
+    <main className="min-h-screen bg-black text-white overflow-hidden">
 
-      <div className="text-center max-w-2xl">
+      {/* HERO */}
+      <section className="relative min-h-[100vh] flex items-center justify-center px-6">
 
-        <p className="text-sm uppercase tracking-[0.3em] text-white/40 mb-6">
-          SELECT LANGUAGE
-        </p>
+        <img
+          src="/david-mobile.jpg"
+          className="absolute inset-0 w-full h-full object-cover opacity-60 md:hidden"
+        />
 
-        <h1 className="text-3xl md:text-5xl font-black uppercase mb-12">
-          SCEGLI LA LINGUA
-        </h1>
+        <img
+          src="/david.jpg"
+          className="absolute inset-0 w-full h-full object-cover opacity-60 hidden md:block"
+        />
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="absolute inset-0 bg-black/25"></div>
 
-          <a href="/it" className="border border-white/20 p-4 rounded-xl hover:bg-white hover:text-black transition">
-            🇮🇹 Italiano
-          </a>
+        <div className="relative z-10 max-w-5xl mx-auto text-center">
 
-          <a href="/en" className="border border-white/20 p-4 rounded-xl hover:bg-white hover:text-black transition">
-            🇬🇧 English
-          </a>
+          <p className="text-sm uppercase tracking-[0.35em] text-white/70 mb-6">
+            FEDE • MISSIONE • MMA
+          </p>
 
-          <a href="/fr" className="border border-white/20 p-4 rounded-xl hover:bg-white hover:text-black transition">
-            🇫🇷 Français
-          </a>
+          <h1 className="text-5xl md:text-7xl font-black uppercase">
+            LA MISSIONE CHE CRISTO MI HA DATO
+          </h1>
 
-          <a href="/de" className="border border-white/20 p-4 rounded-xl hover:bg-white hover:text-black transition">
-            🇩🇪 Deutsch
-          </a>
+          <p className="mt-6 text-white/70 uppercase tracking-[0.25em]">
+            NON È SOLO SPORT. È UNA CHIAMATA.
+          </p>
 
-          <a href="/zh" className="border border-white/20 p-4 rounded-xl hover:bg-white hover:text-black transition">
-            🇨🇳 中文
-          </a>
+          <p className="mt-8 text-lg text-white/90 max-w-3xl mx-auto">
+            Dalla lotta interiore a una vita completamente dedicata a Dio.
+          </p>
 
-          <a href="/ja" className="border border-white/20 p-4 rounded-xl hover:bg-white hover:text-black transition">
-            🇯🇵 日本語
-          </a>
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/storia" className="bg-white text-black px-6 py-3 rounded-full font-bold">
+              LEGGI LA MIA STORIA
+            </a>
 
-          <a href="/pt" className="border border-white/20 p-4 rounded-xl hover:bg-white hover:text-black transition col-span-2">
-            🇵🇹 Português
-          </a>
+            <a href="/sostieni" className="border border-white px-6 py-3 rounded-full">
+              SOSTIENI
+            </a>
+          </div>
 
         </div>
-
-      </div>
+      </section>
 
     </main>
   );
